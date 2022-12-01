@@ -1,0 +1,39 @@
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.link{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button{
+    border: 5px solid #5bbaf1;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.button:hover{
+    background-color: #5bbaf1;
+    color: black;
+}
+.intro h2{
+    font-family: Garamond;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding: 0 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+

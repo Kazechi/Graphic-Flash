@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesimDiff.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>21st Century Literature</title>
+</head>
+<body>
+    <div clas="container">
+        <div class="graphFic" data-aos="fade-left"> 
+            <div class="logo">Graphic Fiction</div>
+            
+        </div>
+
+        <div class="flashFic" data-aos="fade-right">
+            <h1>Flash Fiction</h1>
+            <p>Two days before the exam, Akira wanted to review before the test started. 
+                "I should start reviewing the subjects that I'm bad at", Akira said. 
+                So, he goes to the library and brings out his notes. 
+                Before going back to the classroom Akira borrowed some books from the library, 
+                so that he can continue on studying even after class. The following day, 
+                Akira decided to bring his friend Yuri to the library, so that they can both study, 
+                since the exam will be held tomorrow. "Yuri wanna study together? 
+                I don't want any of us to fail on this coming examination" Akira said. 
+                Yuri replied "Sure, I'll just bring my pen, and notebooks". After a few hours, 
+                when the class is finally over Akira told Yuri to go to school early, 
+                so that they can still review before they take the exam. On the next day, 
+                Yuri arrived earlier in the library before Akira. So, they started reviewing 
+                mathematics. Akira is solving equations, while Yuri is playing with the variables. 
+                Akira got irritated and told Yuri "Stop messing around, we don't have much time left", 
+                but Yuri brushed it off with a smile on his face. 10 minutes left before the exam and 
+                Akira is feeling tense, because he didn't get enough time to read, since Yuri was not getting serious. 
+                Finally the long awaited time has come, they both finally take the exam and get to see their scores. 
+                Akira got 32 in math, and he thought that Yuri would also get a low score since they both didn't have time
+                 to review in math. "Yuri I only got 32, how about you?"Akira asked. Yuri replied with an apology 
+                 "Sorry Akira, I only got 43". Akira got shock by his scores.
+            </p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2500,
+        once: false,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+    <script>
+        $(window).scroll(function(){
+            $(".graphFic").css("opacity", 1 - $(window).scrollTop() / 250)
+        });
+    </script>
+</body>
+</html>
