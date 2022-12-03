@@ -1,0 +1,86 @@
+body{
+    background-image: url(anime.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    box-sizing: border-box;
+    
+}
+.graphFic{
+    border: 10px solid rgb(243, 88, 67);
+    padding: 100px;
+    width: 500px;
+    margin: 0;
+    margin-left: 20%;
+    margin-top: 5%; 
+    background-image: url(graphFic.jpg);
+    background-size: cover;
+}
+.logo{
+    font-family: Lucida Handwriting;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+
+}
+.flashFic{
+    border: 10px solid rgb(255, 62, 255);
+    padding: 50px;
+    width: 700px;
+    height: 350px;
+    margin: 0;
+    margin-left: 20%;
+    margin-top: 15%;
+    background-color: aqua;
+
+    overflow: scroll;
+}
+.flashFic h1{
+    font-family: Lucida Handwriting;
+    text-align: center;
+}
+.flashFic p{
+    outline-color: #f82a2a;
+    outline-style: outset;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 25px;
+}
+.similar{
+    border: 10px solid rgb(243, 88, 67);
+    padding: 50px;
+    width: 700px;
+    margin: 0;
+    margin-left: 20%;
+    margin-top: 35%; 
+    background-image: url(similarities.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logoSimilar{
+    font-family: Lucida Handwriting;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 1650px;
+    left: 36.5%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.graphFic{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 100px 0;
+    border-radius: 5px;
+}
